@@ -1,0 +1,611 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+    <title>Egor Mozzharov</title>
+    <style type="text/css">
+        @import url("http://fonts.googleapis.com/css?family=OldStandardTT");
+        @import url("http://fonts.googleapis.com/css?family=OpenSans");
+
+        #personal_overview p {
+            margin: 0;
+        }
+
+        #next_page_padding {
+            padding-bottom: 35px;
+        }
+
+        .container:before, .container:after {
+            content: "";
+            display: table
+        }
+
+        .container:after {
+            clear: both
+        }
+
+        .container {
+            zoom: 1
+        }
+
+        body {
+            font-family: 'Open Sans', 'Myriad Pro', 'Myriad', sans-serif;
+            color: #1d1313;
+            font-weight: 300;
+            margin: 0
+        }
+
+        h1, h2, h3, h4, ul dl dt {
+            font-family: 'Old Standard TT', serif
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 0 40px 0;
+            background: #fff;
+            border: none;
+            border-width: 2px 0 0 0;
+            text-align: left
+        }
+
+        .resume {
+            position: relative;
+            padding: 10px 20px
+        }
+
+        blockquote a {
+            color: #1d1313;
+            -webkit-transition: color 0.3s linear;
+            -moz-transition: color 0.3s linear;
+            -ms-transition: color 0.3s linear;
+            -o-transition: color 0.3s linear;
+            transition: color 0.3s linear
+        }
+
+        blockquote a:hover {
+            color: #d22042
+        }
+
+        a {
+            color: #d22042
+        }
+
+        a[href$='.pdf'] {
+            display: inline-block;
+            background: #1d1313;
+            color: #fff;
+            padding: 6px 12px;
+            margin-bottom: 6px;
+            text-decoration: none
+        }
+
+        blockquote {
+            margin: 0;
+            padding: 0;
+            line-height: 1.4em;
+            text-align: right
+        }
+
+        hr:nth-of-type(1) {
+            margin-top: 32px
+        }
+
+        hr {
+            display: block;
+            position: relative;
+            padding: 0;
+            margin: 18px auto;
+            width: 100%;
+            clear: both;
+            border: none;
+            border-top: 1px solid #ccc;
+            font-size: 1px;
+            line-height: 0;
+            overflow: visible;
+            page-break-after: avoid
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 36px;
+            letter-spacing: -1px;
+            font-weight: normal
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            font-style: italic;
+            letter-spacing: -1px;
+            font-weight: normal
+        }
+
+        h3 {
+            margin: 0;
+            padding: 0 0 0.5em;
+            font-size: 150%;
+            font-style: italic;
+            font-weight: normal
+        }
+
+        p {
+            margin: 0.6em 0 16px;
+            padding: 0;
+            display: block;
+            font-size: 104%;
+            line-height: 24px
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none
+        }
+
+        ul li {
+            margin: 0;
+            padding: 0
+        }
+
+        ul li p {
+            margin: 1em 0.5em;
+            line-height: 120%
+        }
+
+        ul dl {
+            margin: 0.3em 0 0;
+            padding: 0;
+            width: 100%
+        }
+
+        ul dl dt {
+            font-size: 100%
+        }
+
+        ul dl dd {
+            margin: 0 0 1em;
+            padding: 0 2em 0 0;
+            font-size: 0.8em;
+            line-height: 1.5em
+        }
+
+        ol {
+            margin: 0;
+            padding: 0 0 0.75em;
+            width: 82%;
+            display: inline-block
+        }
+
+        ol li {
+            margin: 0 0 0 1em;
+            padding: 0;
+            width: 100%;
+            float: left;
+            list-style: none;
+            line-height: 24px;
+            font-size: 14px
+        }
+
+        dl {
+            display: inline-block;
+            width: 75%;
+            margin: 0;
+            padding: 0
+        }
+
+        dl dt {
+            margin: 0;
+            padding: 0;
+            font-size: 140%
+        }
+
+        dl dd {
+            margin: 0 0 1.5em;
+            padding: 0;
+            font-size: 80%;
+            line-height: 1.4em
+        }
+
+        dl strong {
+            display: block
+        }
+
+        dl em {
+            display: block;
+            font-size: 110%;
+            margin: 0.15em 0 0.5em;
+            font-style: bold
+        }
+
+        #footer {
+            display: none
+        }
+
+        #footer + p {
+            width: 100%;
+            font-size: 11px;
+            text-align: center
+        }
+
+        .h4-header {
+            font-weight: 500;
+            display: block;
+            margin: 10px 0 5px;2
+            /*width: 84%;
+            margin-left: 16%;
+            float: left;*/
+        }
+
+
+        @media screen {
+            body {
+                padding: 0
+            }
+
+            .container {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .container {
+                width: 100%
+            }
+
+            .resume {
+                margin: 0 auto;
+                padding: 40px 50px;
+                width: 912px
+            }
+
+            blockquote {
+                top: 40px;
+                right: 50px;
+                position: absolute
+            }
+
+            h1 {
+                margin-top: 0;
+                font-size: 44px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-weight: normal
+            }
+
+            h2 {
+                text-transform: uppercase;
+                font-style: italic;
+                letter-spacing: 2px;
+                font-weight: normal
+            }
+
+            h3 {
+                float: left;
+                width: 16%
+            }
+
+            h3 ~ p {
+                float: left;
+                margin-left: 16%
+            }
+
+            h3 + p {
+                margin-left: inherit;
+                float: left;
+                width: 84%
+            }
+
+            /*ul li {
+                width: 28%;
+                float: left
+            }*/
+
+            ul dl dt {
+                font-size: 122%;
+                font-weight: normal;
+                margin-bottom: 0.75em
+            }
+
+            ul dl dd {
+                padding: 0 4em 0 0
+            }
+
+            ol {
+                float: left;
+                margin: 0.6em 0 0
+            }
+
+            ol li {
+                width: 33%;
+                margin: 0
+            }
+
+            ol li:nth-child(3n) {
+                width: 34%
+            }
+
+            ol li:nth-child(1), ol li:nth-child(2), ol li:nth-child(3) {
+                border-top: none
+            }
+
+            dl {
+                margin: 0.5em 0 0
+            }
+
+            dl strong {
+                float: right;
+                margin-top: -2em
+            }
+
+            dl em {
+                font-size: 130%;
+                font-style: normal
+            }
+
+            .responsibilities {
+                width: 84%;
+                margin-left: 16%;
+                float: left;
+                margin-top: -15px;
+            }
+        }
+
+        @media (max-width: 1000px), print {
+            blockquote {
+                top: 25px;
+                right: 50px;
+                position: absolute
+            }
+
+            h1 {
+                margin-top: 0.5em
+            }
+
+            ol {
+                margin: 0 0 0 2em;
+                padding-bottom: 0;
+                width: 100%
+            }
+
+            ol li {
+                width: 33%;
+                margin: 0
+            }
+
+            ol li:nth-child(1), ol li:nth-child(2) {
+                border-top: none
+            }
+
+            /*ul li {
+                width: 33%;
+                float: left
+            }*/
+
+            ul {
+                list-style: circle;
+            }
+
+            p {
+                margin-left: 25px;
+                font-size: 14px;
+                line-height: 20px
+            }
+
+            p strong, p em {
+                font-size: 17px;
+                line-height: 24px
+            }
+
+            .responsibilities {
+                margin-left: 45px;
+                font-size: 14px;
+                margin-top: -15px;
+            }
+        }
+
+        @media screen and (max-width: 625px) {
+            /*ul li {
+                width: 100%
+            }*/
+
+            ul br:nth-of-type(1) {
+                display: none
+            }
+
+            ul a {
+                line-height: 130%
+            }
+
+            blockquote {
+                float: right;
+                position: static
+            }
+
+            p {
+                margin-left: 5px;
+                font-size: 12px;
+                line-height: 16px
+            }
+
+            p strong, p em {
+                font-size: 14px;
+                line-height: 20px
+            }
+
+            ol li {
+                width: 50%;
+                margin: 0;
+                font-size: 12px
+            }
+        }
+
+        @media print {
+            .container {
+                border-top: none
+            }
+
+            .not-printed {
+                display: none
+            }
+
+            a {
+                text-decoration: none;
+                color: #000
+            }
+
+            .page-break {
+                page-break-before: always;
+                padding-top: 20px
+            }
+        }
+
+        @page {
+            size: auto;
+            margin: 10mm
+        }
+    </style>
+    <style>
+        a[href$='.pdf'] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <h1 id="egor-mozzharov">Egor Mozzharov</h1>
+        <blockquote>
+            <p>
+                <a href="mailto:egormozzharov@gmail.com">egormozzharov@gmail.com</a>
+                <br>+375293298433
+                <br>skype: egormozzharov
+            </p>
+        </blockquote>
+        <hr>
+        <h3>Personal overview</h3>
+        <ol id="personal_overview">
+            <p>A Full Stack Developer with more than 3 years’ of professional development.</p>
+            <p>Has a strong technical background.</p>
+            <p>Hardworking.</p>
+        </ol>
+        <hr>
+        <h3 id="technical">Technical skills</h3>
+        <ol>
+            <li>.NET Framework</li>
+            <li>WPF</li>
+            <li>Entity framework</li>
+            <li>MSSQL Server</li>
+            <li>MySql</li>
+            <li>ASP.NET MVC</li>
+            <li>ASP.NET Web API</li>         
+            <li>Windows Service</li>
+            <li>WCF</li>
+            <li>Sockets</li>
+            <li>SignalR</li>
+            <li>HTML5/CSS3</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>Kendo UI</li>
+            <li>AngularJS</li>
+            <li>KnockoutJS</li>
+            <li>Dojo</li>
+            <li>JSON</li>  
+            <li>XML</li>
+            <li>XPath</li>
+            <li>XSD</li>     
+            <li>Git</li>
+            <li>SVN</li>
+            <li>TFS</li> 
+        </ol>
+        <hr>
+
+        <h3 id="projects">Projects</h3>
+        <p>
+            <strong>Aras Innovator</strong> <em>since Jan 2016 to present</em><br>
+            <span class="h4-header">Description</span>
+            <span>PLM system that can integrate data, processes, business systems and people in an extended enterprise.</span>
+            <br><span>https://www.aras.com/support/downloads/download.aspx</span>
+            <br>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>Implemented the functionality of the User Interface</li>
+                <li>Developed the business logic data management</li>
+                <li>Improvement existing functionality</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Aras Update</strong> <em>since Aug 2015 to Jan 2016</em><br>
+            <span class="h4-header">Description</span>
+            <span>Utility which enables installation of all applications that run inside of Aras Innovator, such as Aras Technical Documentation, Aras Quality Management System.</span>
+            <br><span>https://www.aras.com/support/downloads/download.aspx
+            </span><br>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>End to end development</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Tech xCelerate</strong> <em>since Jan 2015 to Aug 2015</em><br>
+            <span class="h4-header">Description</span>
+            <span>The McAfee Rewards site is a web-application designed to support McAfee Rewards Program. Application users are the companies who sell McAfee products and register their sales on the site to receive the McAfee Rewards Points. Points can be redeemed for prized, gifts, gadgets and holiday items from the online rewards catalogue.</span><br>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>Developed the client representation of the application using ASP.NET MVC, jQuery, Kendo UI</li>
+                <li>Configuring WCF services.</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Qualification Assessment System</strong> <em>since Feb 2014 to Jan 2015</em><br>
+            <span class="h4-header">Description</span>
+            <span>Web application that allows you to plan, direct and control the professional and career development of employees on the basis of ongoing tasks of the department. Gives an information about staff development, their progress and technologies they have worked with on projects. Reveals the necessary competencies to participate in other projects.</span><br>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>Took part in the project architecture development.</li>
+                <li>Development of the new features and testing of the functionality.</li>
+                <li>Web application maintenance.</li>
+                <li>Optimized application performance.</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Iturus</strong> <em>since June 2013 to Nov 2013</em><br>
+            <span class="h4-header">Description</span>
+            <span>Online system that allows to manage tasks, resources and resource loading for freelancers, organizations and their employees.</span><br>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>ASP.NET MVC website development using C#.</li>
+            </ul>
+        </p>
+        <p>
+            <strong>Mintpay</strong> <em>since Feb 2013 to June 2013</em><br>
+            <span class="h4-header">Description</span>
+            <span>Online system that allows to book, buy and store tickets for different events on the mobile phone, order taxi and pay for it directly from your phone.</span>
+            <br><span>https://mintpay.by/</span>
+            <span class="h4-header">Responsibilities</span>
+            <ul class="responsibilities">
+                <li>Development and maintenance of the front end functionality of websites.</li>
+                <li>Writing cross-browser compliant HTML, CSS & JavaScript.</li>
+            </ul>
+        </p>
+        <hr>
+        <h3 id="education">Education</h3>
+
+        <p>
+        <strong>Belarusian State University of Informatics and Radioelectronics, Minsk</strong> <i>2011 -
+            present</i>
+            <br> Faculty of Computer Systems and Networks
+        </p>
+        <hr>
+        <h3 id="languages">Languages</h3>
+        <p> <strong>Russian</strong> – Native Speaker
+        <br>
+            <strong>English</strong> – Upper-Intermediate writer, fluent speaker.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
