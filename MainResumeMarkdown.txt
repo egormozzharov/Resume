@@ -1,0 +1,160 @@
+**Egor Mozzharov**
+
+[egormozzharov@gmail.com](mailto\:egormozzharov@gmail.com) | Telegram: @egormozz | Skype: egormozzharov
+
+---
+
+### **Personal Overview**
+
+Senior Software Engineer with over 9 years of experience delivering customized solutions across diverse industries. Proven ability to translate complex product requirements into scalable architectures and robust designs. Highly skilled in Microsoft technologies, .NET Framework, and cloud solutions. Adept at leading development teams, mentoring engineers, and optimizing application performance.
+
+---
+
+### **Certificates**
+
+- Microsoft Certified: Azure Developer Associate
+  [Credential Link](https://learn.microsoft.com/api/credentials/share/ru-ru/EgorMozzharov-3031/40C133DFD08C92EC?sharingId=E02930133B18EDBF)
+
+---
+
+### **Technical Skills**
+
+**Languages:** .NET C#, Go, Python, JavaScript, TypeScript, Solidity
+
+**Frameworks:** .NET Core, ASP.NET Core, Angular, Vue.js, ReactiveX (RxJs), ASP.NET (latest versions)
+
+**Databases:** MSSQL, PostgreSQL, MySQL, MongoDB, Redis, SQL Server
+
+**Messaging Queues:** RabbitMQ, Hangfire, Quartz
+
+**Blockchain:** Solidity, Hardhat, Web3.js, Ethers.js, Fireblocks, Alchemy
+
+**Cloud Platforms:** Microsoft Azure (DevOps, App Services, SQL, File Storage, Service Bus, Virtual Machines, Docker, Kubernetes Service, Entra ID), AWS
+
+**Other Tools:** Docker, Git, SignalR, Node.js, Keycloak
+
+---
+
+### **Professional Experience**
+
+#### **.NET Blockchain Developer**
+
+**First Global Reserve**\
+*December 2023 – December 2024*
+
+**Project:** First Global Reserve\
+A token management system designed for producing real-world asset tokens, ensuring secure and scalable tokenization processes.
+
+**Responsibilities:**
+
+- Developed a comprehensive token management system for real-world asset tokenization.
+- Designed and deployed secure smart contracts to manage asset-backed tokens.
+- Collaborated with cross-functional teams to align blockchain solutions with business objectives.
+- Implemented performance optimizations, reducing transaction costs by 20%.
+- Conducted audits to ensure compliance with blockchain security standards.
+
+**Technologies:** .NET 6, Solidity, Azure Services, RabbitMQ, PostgreSQL, Fireblocks, Alchemy
+
+---
+
+#### **Senior Software Engineer**
+
+**AIS Novations**\
+*September 2020 – December 2023*
+
+**Project:** AmTrust Financial Services\
+A small business insurance system with a wide range of settings and customizations. Transitioned from a monolith to a microservices architecture.
+
+**Responsibilities:**
+
+- Led and mentored a team of developers.
+- Performed code reviews and task estimations.
+- Resolved performance issues, improving application response time by 30%.
+- Analyzed business requirements and proposed architectural solutions.
+- Migrated legacy components to modern microservices.
+
+**Technologies:** .NET Framework, .NET Core, Azure Service Bus, RabbitMQ, Azure Services, MSSQL, Redis
+
+---
+
+#### **Technical Lead**
+
+**Ankr**\
+*September 2022 – June 2023*
+
+**Project:** Mirage Platform\
+Developed an NFT aggregation and management platform tailored for gaming, including an online marketplace and smart contract tools for game developers.
+
+**Responsibilities:**
+
+- Led a team of 5 developers, ensuring adherence to project timelines.
+- Designed and implemented key platform components, including NFT management.
+- Integrated advanced features like auctions and DAOs.
+- Conducted performance optimization, improving system throughput by 25%.
+
+**Technologies:** .NET 6, Go, RabbitMQ, PostgreSQL, Redis, Solidity, Reservoir API, Keycloak
+
+---
+
+#### **Software Engineer**
+
+**AIS Novations**\
+*November 2018 – September 2020*
+
+**Project:** Quote Builder\
+A CRM-like system for sales teams to generate quotes, sales orders, and proposals with partial Salesforce integration.
+
+**Responsibilities:**
+
+- Developed a robust data integration module, streamlining synchronization with external services.
+- Investigated and resolved production issues, minimizing downtime.
+- Mentored junior developers and led task estimations.
+
+**Technologies:** .NET Framework, MSSQL, Salesforce Integration
+
+---
+
+#### **Blockchain Developer**
+
+**Aperitas**\
+*May 2017 – October 2018*
+
+**Project:** Aperitas\
+Aperitas is a CSR 2.0 digital sustainability platform which offers tools to assess your company, your supply chain, and individual companies.
+
+**Responsibilities:**
+
+- Designed and implemented secure smart contracts (ERC20, ERC721, ERC1155).
+- Developed a decentralized insurance prototype.
+- Integrated CSR metrics stored on the blockchain, leveraging Solidity and Hardhat.
+- Ensured security against reentrancy and frontrunning vulnerabilities.
+- Responsible for integration with payment system, subscriptions, and plans.
+- Investigated and resolved production issues.
+- Conducted deployment and optimized performance.
+
+**Technologies:** Solidity, Web3.js, Ethers.js, Hardhat, JavaScript, TypeScript
+
+---
+
+### **Education**
+
+**Belarusian State University of Informatics and Radioelectronics, Minsk**\
+*2011 – 2016*\
+Faculty of Computer Systems and Networks
+
+---
+
+### **Languages**
+
+English: Advanced/Fluent
+
+---
+
+### **Key Achievements**
+
+- Improved application performance across projects, achieving up to 40% faster query response times.
+- Successfully led multiple teams, mentoring junior and mid-level developers.
+- Designed secure blockchain solutions, minimizing vulnerabilities and enhancing reliability.
+
+---
+
