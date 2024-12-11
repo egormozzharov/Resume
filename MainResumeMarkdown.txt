@@ -53,7 +53,7 @@ A token management system designed for producing real-world asset tokens, ensuri
 - Implemented performance optimizations, reducing transaction costs by 20%.
 - Conducted audits to ensure compliance with blockchain security standards.
 
-**Technologies:** .NET 6, Solidity, Azure Services, RabbitMQ, PostgreSQL, Fireblocks, Alchemy
+**Technologies:** .NET 6, Solidity, Azure Services, RabbitMQ, PostgreSQL, Fireblocks, Alchemy, Angular
 
 ---
 
@@ -92,7 +92,7 @@ Developed an NFT aggregation and management platform tailored for gaming, includ
 - Integrated advanced features like auctions and DAOs.
 - Conducted performance optimization, improving system throughput by 25%.
 
-**Technologies:** .NET 6, Go, RabbitMQ, PostgreSQL, Redis, Solidity, Reservoir API, Keycloak
+**Technologies:** .NET 6, Go, RabbitMQ, PostgreSQL, Redis, Solidity, Reservoir API, Keycloak, Angular
 
 ---
 
@@ -110,7 +110,7 @@ A CRM-like system for sales teams to generate quotes, sales orders, and proposal
 - Investigated and resolved production issues, minimizing downtime.
 - Mentored junior developers and led task estimations.
 
-**Technologies:** .NET Framework, MSSQL, Salesforce Integration
+**Technologies:** .NET Framework, MSSQL, Salesforce Integration, Angular
 
 ---
 
@@ -132,7 +132,7 @@ Aperitas is a CSR 2.0 digital sustainability platform which offers tools to asse
 - Investigated and resolved production issues.
 - Conducted deployment and optimized performance.
 
-**Technologies:** Solidity, Web3.js, Ethers.js, Hardhat, JavaScript, TypeScript
+**Technologies:** Solidity, Web3.js, Ethers.js, Hardhat, JavaScript, TypeScript, Vue.js
 
 ---
 
